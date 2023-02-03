@@ -7,7 +7,8 @@ public class variables : MonoBehaviour
     int sayi1, sayi2;                                  // Ýnt ifade tam sayý deðerlerini tutmamýza yarar.
     public int sayi3;                                  // Public ifadesini eklememiz bizim deðiþkenlerimizi oyun içinde deðiþtirmemize yarar.
     public string metin;                               // String ifadesi text yazabilmemize imkan tanýr.
-    public float sayi4, sayi5;                         // Float ifadesi ondalýklý sayýlarý tanýmlamamýzý saðlar.
+    public float sayi4, sayi5;                         // Float ifadesi ondalýklý sayýlarý tanýmlamamýzý saðlar. Örn. 2.8f þeklinde yazýlýr.
+
     
 
     void Start()
