@@ -15,7 +15,7 @@ public class methods : MonoBehaviour
         method2(25, 35);                               // Bu þekilde doðrudan sayýlarý yazabiliriz.
         method2(rakam2, rakam1);                       // 2. yöntem olarak deðiþken adýný parametre olarak veririz.
         Debug.Log(method3());                          // Geri dönüþümlü methodlar Debug.Log içinde yazýlýr.
-        Debug.Log(method4(adi, soyadi));
+        Debug.Log(method4(adi, soyadi));               // Týpký diðer methodlarda olduðu gibi 2 farklý þekilde parametre verilebilir.
         Debug.Log(method4("muhammet", "karayilann"));
     }
     void Update()
@@ -25,16 +25,16 @@ public class methods : MonoBehaviour
     // Geri dönüþümsüz, parametresiz method
     void method1()
     {
-        Debug.Log("Muhammet"); // Bu methotlarý çalýþtýrmak için çaðýrmak gerekir.
+        Debug.Log("Muhammet");                         // Bu methotlarý çalýþtýrmak için çaðýrmak gerekir.
     }
     //Geri dönüþümsüz, parametreli method
-    void method2(int sayi1, int sayi2) // Bu methodu çaðýrýrken parametrede belirtmeliyiz.
+    void method2(int sayi1, int sayi2)                 // Bu methodu çaðýrýrken parametrede belirtmeliyiz.
     {
-        int toplam = sayi1 + sayi2; // Parametre fonksiyonun bizden istediði deðerlerdir. Debug.Log içine yazdýklarýmýz misali
+        int toplam = sayi1 + sayi2;                    // Parametre fonksiyonun bizden istediði deðerlerdir. Debug.Log içine yazdýklarýmýz misali
         Debug.Log(toplam);
     }
     // Geri dönüþümlü, parametresiz method
-    string method3() // Bu methodda çýktý almak için return kullanýlýr.
+    string method3()                                   //Dönüþümlü methotlarda çýktý almak için return kullanýlýr.
     {
         string metin = "method3 çalýþtý";
         return metin;
@@ -44,6 +44,5 @@ public class methods : MonoBehaviour
         string isim = ad + " " + soyad ;
         return isim;
     }
-
-    // Void dönüþümsüz bir ifadedir. Bu nedenle dönüþümlü methodlarda kullanýlmaz.
+                                                       // Void dönüþümsüz bir ifadedir. Bu nedenle dönüþümlü methodlarda kullanýlmaz.
 }
