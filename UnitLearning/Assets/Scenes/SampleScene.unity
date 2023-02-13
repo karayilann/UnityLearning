@@ -314,6 +314,10 @@ GameObject:
   - component: {fileID: 2136810416}
   - component: {fileID: 2136810417}
   - component: {fileID: 2136810418}
+  - component: {fileID: 2136810419}
+  - component: {fileID: 2136810420}
+  - component: {fileID: 2136810421}
+  - component: {fileID: 2136810422}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -385,7 +389,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136810413}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d09f1c5760f9dc4e9cef6c9afca1911, type: 3}
   m_Name: 
@@ -394,3 +398,56 @@ MonoBehaviour:
   b: 0
   c: 3
   d: 0
+--- !u!114 &2136810419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136810413}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f27e6446cde7e4398b44dcecb28154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diziler: []
+--- !u!114 &2136810420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136810413}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a439bce4561e964aacf09f681badf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sayilar: []
+--- !u!114 &2136810421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136810413}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a396863f671ac4797e9877cbbf376a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sayilar: []
+--- !u!114 &2136810422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136810413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2af9fa33e6687c4ab26b0350df60d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sayi: 5
+  isim: Muhammet

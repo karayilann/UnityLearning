@@ -1,0 +1,8 @@
+**RİGİDBODY 
+- Mass game objectin ağırlığını belirler.
+- Drag ise sürtünme kuvvetini belirler.
+
+
+**SCRİPT NOTES
+- Application.LoadLevel("Sahneismi") kodu ile sahneler arası geçişi yapabiliriz.
+  - NOT : Sahneleri build menüsünde oyuna tanıtmalıyız.
