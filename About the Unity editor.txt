@@ -12,4 +12,11 @@
 - 2.YOL : Bir game objecte Audio Source componentini ekleriz. Ardından AudioClip kısmına ses assetini sürükler bırakırız.
 - Play On Awake özelliğini açarsak oyun başlatılır başlatılmaz çalıştırılır.
 - Spatial Blend özelliği sese konum verir. Eğer 2D olursa ses oyunun her yerinde aynı olur. 3D olursa ise ses yaklaştıkça seviyesi artar.
-- Stereo Pan özelliği sesi sağ veya sola dağıtır
+- Stereo Pan özelliği sesi sağ-sol stereo özelliklerini düzenler.
+- Loop özelliği ile sesi dögüye alırız.
+
+**UNITY ANIMATION
+- Parametrelere bool,float,int,trigger türünde değer atabiliriz. Ve bunlar ile animasyonları koşullandırabiliriz.
+- Animasyonu seçip sağ tık ile "Auto" özeliiğini seçersek animasyonlarımızı süre içine düzgün olarak dağıtır.
+- Animator penceresinde animasyonu başlangıçta default olması için animasyona sağ tıklanarak "Set as default layer" denilir ve turuncu kutucuğa döner.
+- 
