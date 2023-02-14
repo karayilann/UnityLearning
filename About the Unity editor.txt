@@ -6,3 +6,10 @@
 **SCRİPT NOTES
 - Application.LoadLevel("Sahneismi") kodu ile sahneler arası geçişi yapabiliriz.
   - NOT : Sahneleri build menüsünde oyuna tanıtmalıyız.
+
+**AUDIO SOURCE
+- Boş game object oluşturduktan sonra ses dosyasını içine atarak sesi kullanabiliriz.
+- 2.YOL : Bir game objecte Audio Source componentini ekleriz. Ardından AudioClip kısmına ses assetini sürükler bırakırız.
+- Play On Awake özelliğini açarsak oyun başlatılır başlatılmaz çalıştırılır.
+- Spatial Blend özelliği sese konum verir. Eğer 2D olursa ses oyunun her yerinde aynı olur. 3D olursa ise ses yaklaştıkça seviyesi artar.
+- Stereo Pan özelliği sesi sağ veya sola dağıtır
