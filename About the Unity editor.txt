@@ -19,4 +19,12 @@
 - Parametrelere bool,float,int,trigger türünde değer atabiliriz. Ve bunlar ile animasyonları koşullandırabiliriz.
 - Animasyonu seçip sağ tık ile "Auto" özeliiğini seçersek animasyonlarımızı süre içine düzgün olarak dağıtır.
 - Animator penceresinde animasyonu başlangıçta default olması için animasyona sağ tıklanarak "Set as default layer" denilir ve turuncu kutucuğa döner.
-- 
+
+
+**UNITY REMOTE
+- Kullanmak için öncelikle telefonumuza uygulamayı indiriyoruz.
+- Telefonda ==> Geliştirici seçenekleri > USB Hata Ayıklama seçeneğini açmalıyız.
+- Ardından telefon veya tableti USB yoluyla bağlamalıyız.
+- Projemizi Android cihaz için oluşturmalıyız ve Build Settings ekranından Android'e geçmeliyiz.
+- Edit > Project Settings > Editor > Unity Remote kısmından Device kısmını Any Android Device seçeneğine almalıyız.
+- Oyunu Unity içerisinde başlattığımızda telefonda da başlamış olacaktır.
